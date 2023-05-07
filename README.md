@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# SUMMA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+The main inspiration for the idea was my own personal experience of conducting online learning, where  2-hour long lecture videos would be uploaded. The process of having to watch those lectures takes up time and I usually fall behind on the notes. This website solves this problem.
 
-## Available Scripts
+## What it does
+SUMA is a website designed for students to upload their lecture videos and SUMA will create a summary out of it. This process eliminates the need for students to manually take notes.
 
-In the project directory, you can run:
+## How we built it
+The front end of the website was built using React. The server is hosted on [server]. I mostly used React for the frontend part of the project, and Python for the API endpoints on the backend.
 
-### `npm start`
+## Challenges we ran into
+This was the first time that I created a website that uses APIs. Prior to this, I don't know how to coordinate and use the API
 
-Runs the app in the development mode.\
+## Accomplishments that we're proud of
+I am extremely proud of the speech-to-text commands that we integrated and using OpenAPI's API to create the summary out of the lectures.
+
+## What we learned
+The main concept we learned was how to build an end-to-end application. From this project, I mainly learned how to use OpenAI's APIs to create a summary generator. I also learned that testing is a big part of our project and with dedication and hard work, anything is possible.
+
+## What's next for SUMMA
+SUMMA has the potential to aid students' learning experiences. Some of the next features that I want to incorporate is the ability to generate questions (quizzes) to help students review their materials on top of the summary that has been generated.
+
+## How to run the file?
+type in 'npm start' in your terminal and it will run the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
